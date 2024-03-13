@@ -1,0 +1,6 @@
+<portType name = "HeyPortType">
+   <operation name = "sayHey">
+      <input message = "tns:SayHeyRequests"/>
+      <output message = "tns:SayHeyResponses"/>
+   </operation>
+</portType>
